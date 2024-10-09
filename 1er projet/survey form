@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta width="device-width" initiale-scale="1.0">
+  <link rel="stylesheet" href="styles.css">
+    <title>Build a Survey Form</title>
+  </head>
+<body>
+  <h1 id="title">Formulaire d'adhésion au Club de Sport</h1>
+     <p id="description">Bienvenu aux nouveaux membres du club de sport, remplissez ce formulaire d'adhésion pour nous rejoindre:</p>
+<form id="survey-form">
+  <fieldset>
+    <legend>Vos informations</legend>
+  <label id="name-label">Inserer votre Nom:
+  <input type="text" id="name" placeholder="Jean Dupont" required>
+     </label>
+     <label id="number-label">Inserer votre age:
+       <input type="number" id="number" min="6" max="100" placeholder="18" required>
+       </label>
+  <label id="email-label">Inserer votre email:
+    <input type="email" id="email" placeholder="jeandupont@gmail.com" required>
+    </label>
+  <label id="telephone-label">Inserer votre numéro:
+    <input type="tel" id="telephone" min="10" max"10" pattern=" [0-9]{10,}" placeholder="06........" required>
+    </label>
+    <label id="password-label">Inserer votre mot de passe:
+      <input type="password" id="password" pattern="[a-z0-9]{8,}" placeholder="mot de passe" required>
+  </fieldset>
+  <fieldset> 
+<legend> Pour qui est l'inscription?</legend>
+   <label for="compte-personnel"><input type="radio" id="compte-personnel" name="type-de-compte" value="pour-moi" class="inline" required> Pour moi</label>
+   <label for="compte-enfant"><input type="radio" id="compte-enfant" name="type-de-compte"value="enfant" class="inline"> Pour mon enfant</label>
+  </fieldset>
+  <fieldset>
+    <legend>Quels sports souhaitez-vous pratiquer?</legend>
+    <label for="dropdown">
+      <select id="dropdown" required>
+        <option value="">Sélectionner un choix</option>   
+        <option value="1">Basket</option>
+        <option value="2">Boxe</option>
+        <option value="3">Danse</option>
+        <option value="4">Gymnastique</option>
+        <option value="5">Judo</option>
+        <option value="6">Karate</option>
+      </select>
+    </label>
+    </fieldset>
+    <fieldset>
+      <p>Commentaire:<p>
+      <label for="commentaire">
+        <textarea id="commentaire" rows="4" cols="20"></textarea>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label for="terms-and-conditions">
+          <input type="checkbox" id="terms-and-conditions" value="termes-and-conditions" required class="inline"> J'accepte les <a href ="https://www.savoie.gouv.fr/contenu/telechargement/12133/86434/file/Mod%C3%A8les+de+statuts.pdf"> termes et conditions.</a>
+<label for="evenement">
+          <input type="checkbox" id="evenement"value="evenement" class="inline">J'accepte de recevoir des notifications concernant les événements du club.
+          </label>
+      </fieldset>
+          <label>
+            <input type="submit" value="Envoyer" id="submit">
+            </label>
+  </form>
+ </body>
+</html>
