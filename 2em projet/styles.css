@@ -1,0 +1,186 @@
+/* Définition des variables de couleur */
+:root {
+    --couleur-soustitre: #590E15;
+    --couleur-section: #B4D966;
+    --couleur-fondimage: #556F14;
+    --couleur-shadow: #D96704; 
+    --couleur-titre: #A61212;
+    --couleur-fondcitation: #058D7E;
+    --couleur-body: #fff6f6;
+    --couleur-fondtitre: #6d125c;
+  }
+  
+  /* Réinitialisation des styles par défaut */
+  * {
+    text-decoration: none;
+  }
+  
+  /* Styles du corps de la page */
+  body {
+    background-color: var(--couleur-body);
+    margin: 10px auto;
+    padding: 0; 
+  }
+  
+  /* Styles pour l'image */
+  #image {
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    border-radius: 10px; 
+    background-color: var(--couleur-fondtitre); 
+    width: 50%; 
+    margin: 0 auto; 
+    padding: 4px; 
+  }
+  
+  /* Styles pour le conteneur de l'image */
+  #img-div {
+    text-align: center; 
+    margin: 20px auto; 
+    padding: 20px; 
+    background-color: var(--couleur-fondimage); 
+    border: 5px solid var(--couleur-shadow); 
+    font-size: 12px; 
+    font-family: Arial;
+    font-weight: bold; 
+    color: black; 
+  }
+  
+  /* Styles pour le conteneur principal */
+  .container {
+    max-width: 800px; 
+    height: auto; 
+    margin: 70px auto; 
+    padding: 0; 
+    box-shadow: 0 4px 20px var(--couleur-shadow);
+  }
+  
+  /* Styles pour le titre principal */
+  h1 {
+    font-size: 60px; 
+    font-family: "Bungee Tint", Impact; 
+    font-style: oblique; 
+    font-weight: bold; 
+    text-align: center; 
+    color: var(--couleur-titre);
+    margin: 20px 0;
+    padding: 20px;
+  }
+  
+  /* Styles pour l'icône du titre */
+  .material-symbols-outlined {
+    font-size: 48px; 
+    color: var(--couleur-titre); 
+  }
+  
+  /* Styles pour le paragraphe dans le conteneur */
+  .container p {
+    text-align: center; 
+    font-size: 20px; 
+    font-family: impact; 
+    color: var(--couleur-titre); 
+    margin-top: 0; 
+    margin-bottom: 30px; 
+    padding: 0; 
+  }
+  
+  /* Styles pour les sous-titres */
+  h2 {
+    text-align: center;
+    font-family: Georgia, Serif; 
+    font-size: 20px; 
+    color: var(--couleur-section); 
+    font-weight: bold; 
+    background-color: var(--couleur-fondtitre); 
+    padding: 8px; 
+    margin: 0 100px; 
+    box-shadow: 0 4px 10px var(--couleur-shadow);
+  }
+  
+  /*Styles des auteurs*/
+  h3 { 
+    font-family: Georgia, Serif; 
+    font-size: 18px; 
+    color: var(--couleur-soustitre);
+    text-align: center; 
+    margin: 20px 0; 
+  }
+  
+  /* Styles pour les dates */
+  .date {
+    font-family: Arial, sans-serif; 
+    font-size: 14px; 
+    color: var(--couleur-soustitre);
+    text-align: center; 
+    margin: 10px 0; 
+  }
+  
+  /* Styles pour les paragraphes */
+  p {
+    text-align: justify; 
+    font-size: 15px; 
+    font-family: Arial, sans-serif; 
+    margin: 20px; 
+    padding: 10px; 
+    color: black; 
+  }
+  
+  /* Styles pour les citations */
+  blockquote {
+    font-family: 'Georgia', serif; 
+    font-size: 20px; 
+    color: var(--couleur-section); 
+    margin: 20px 0; 
+    padding: 10px 20px; 
+    background-color: var(--couleur-fondcitation); 
+    border-left: 5px solid var(--couleur-shadow);
+    border-radius: 5px; 
+    text-align: left;
+  }
+  
+  /* Styles pour les éléments en italique */
+  i {
+    font-style: italic;
+    font-weight: bold; 
+    display: block; 
+    margin: 20px 0;
+    padding: 10px;
+    border-left: 2px solid var(--couleur-shadow); 
+    background-color: var(--couleur-fondcitation); 
+    quotes: "“" "”" "‘" "’"; 
+    color: var(--couleur-sansnom2); 
+  }
+  
+  /* Styles pour l'en-tête */
+  header {
+    width: 100%;
+    height: 50px; 
+    background-color: var(--couleur-section); 
+    display: flex; 
+    justify-content: flex-end;
+    position: fixed; 
+    top: 0; 
+    padding-right: 100px; 
+    z-index: 1000;
+  }
+  
+  /* Styles pour les éléments de navigation au survol */
+  nav > ul > li:hover {
+    background-color: var(--couleur-shadow); 
+    color: var(--couleur-sansnom6); 
+    cursor: pointer; 
+  }
+  
+  /* Styles pour la liste de navigation */
+  #list-nav {
+    display: flex; 
+    list-style-type: none; 
+    margin: 5px 100px; 
+    padding: 0;
+  }
+  
+  /* Styles pour les élements de la liste de navigation */
+  nav ul li {
+    padding: 10px 15px; 
+    font-family: Georgia, Serif; 

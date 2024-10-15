@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta charset="utf-8">
+   <link rel="stylesheet" href="styles.css">
+   <link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=theater_comedy" />
+   <title>Tribute Page</title>
+  </head>
+ <body>
+    <header>
+    <nav>
+       <ul id="list-nav">
+          <li><a href="#personalité">La personalité de Joker</a></li>
+          <li><a href="#cinema">Au cinéma</a></li>
+          <li><a href="#psychologie">La psychologie de Joker</a></li>
+       </ul>
+       </nav>
+       </header>
+<main id="main">
+   <div class="container">
+  <h1 id="title">LE JOKER <span class="material-symbols-outlined">
+    theater_comedy
+</span></h1>
+   <p>Le prince du crime</p>
+   </div>
+<div id="img-div">
+   <figure>
+  <img src="https://media.vanityfair.fr/photos/60d3758e70d918d588008f29/16:9/w_1280,c_limit/vf_joker_cover_3842.jpeg" alt="Scene from the movie where the Joker dances down the stairs" id="image">
+     <figcaption id="img-caption">Scene mémorable du <q>Joker, 2019</q>, dans le Bronx à New York, Arthur Fleck transformé totalement en Joker, descend le joker stairs en dansant avec euphorie.</figcaption>
+   </figure>
+</div>
+<section>
+   <h2 id="personalité">Un personnage aux multiples facettes</h2>
+      <p>Le Joker est un personnage emblématique qui s'est imposé comme l'un des plus fascinants de l'univers des comics, notamment en raison de la diversité des interprétations qu'il a suscitées au fil des décennies. Tantôt présenté comme un clown psychotique et sanguinaire, tantôt comme un agent du chaos aux motivations presque philosophiques, chaque incarnation de ce personnage complexe a exploré des aspects uniques de sa personnalité. Cette flexibilité d'interprétation a permis aux créateurs de jouer avec différentes visions du mal, tout en conservant une continuité fascinante, faisant du Joker une figure incontournable de la culture populaire. Cette diversité d'approches a également offert une grande liberté aux acteurs, écrivains, et réalisateurs, chacun apportant sa propre perspective, ce qui renforce l'aura mystérieuse et imprévisible du personnage.</p>
+<div id="tribute-info">
+   <h2 id="cinema">Les interprétations iconiques au cinéma</h2>
+  <p>Si le Joker a profondément marqué l'univers des comics, son influence s'étend bien au-delà, avec une empreinte indélébile laissée sur le grand écran. Des acteurs de renom ont incarné ce personnage iconique, chacun livrant une performance mémorable et apportant une interprétation unique à sa complexité. De Jack Nicholson à Joaquin Phoenix, en passant par la performance légendaire de Heath Ledger, chaque acteur a su insuffler une nouvelle dimension au Joker, qu'il soit un génie du mal, un anarchiste torturé, ou un homme brisé par la société. Ces différentes incarnations cinématographiques ont non seulement enrichi la mythologie du Joker, mais ont aussi permis d'explorer des thèmes profonds liés à la folie, au chaos, et à la condition humaine, consolidant ainsi son statut de personnage culte.</p>
+     <ul>
+     <li>
+        <article>
+        <h3>Cesar Romero : <i>Batman</i></h3>
+         <span class="date">(1966)</span>
+        <p>Le premier acteur à incarner le Joker sur grand écran fut l'Américain Cesar Romero, dans le film Batman réalisé par Leslie H. Martinson, ainsi que dans la série télévisée éponyme, diffusée de 1966 à 1968. Le Joker de Romero est un personnage haut en couleur, fidèle à l'esthétique des bandes dessinées de l'époque, avec une approche exagérément théâtrale et burlesque. Son interprétation se concentre principalement sur l'aspect comique et extravagant du personnage, délaissant la profondeur psychologique qui sera explorée plus tard par ses successeurs. Ce Joker, bien que volontairement léger et clownesque, a ouvert la voie à des représentations plus sombres et nuancées.</p>
+        </article>
+     </li>
+     <li>
+        <article>
+        <h3>Jack Nicholson :<i>Batman</i></h3>
+        <span class="date"> (1989)</span>
+        <p>Quand on pense à Jack Nicholson dans le rôle du Joker, c'est ce visage devenu iconique qui vient immédiatement à l'esprit : des sourcils relevés, un regard perçant et un sourire ambigu, presque inquiétant. Qui d'autre que lui aurait pu incarner ce Joker extravagant, vêtu de son costume trois pièces bigarré, dans la vision gothique de Tim Burton ? Dans le Batman de 1989, Nicholson, avec une énergie débridée, danse au son de Prince tout en semant le chaos dans un Gotham corrompu. Face à lui, l'homme chauve-souris, incarné par Michael Keaton, et sa petite-amie Vicki Vale, interprétée par Kim Basinger, doivent tenter de déjouer les plans fous de ce clown criminel. Nicholson a su marquer à jamais le personnage en lui apportant une touche unique de folie, mêlant humour noir et menace palpable, et son interprétation reste une référence majeure dans l'univers des adaptations cinématographiques de Batman.</p>
+       </article>
+       </li>
+     <li>
+        <article>
+        <h3>Heath Ledger :<i>The Dark Knight</i></h3>
+        <span class="date"> (2008)</span>
+        <p>Le 22 février 2009, Heath Ledger recevait, à titre posthume, l'Oscar du Meilleur second rôle pour son interprétation magistrale du Joker dans The Dark Knight de Christopher Nolan. Tragiquement disparu un an plus tôt des suites d'une overdose, l'acteur australien n'aurait pas survécu à l'intense préparation psychologique que son personnage exigeait. Fragile, torturé, certains affirment que le rôle du Joker l’a consumé. Cependant, ce qui s'impose à l'écran est bien plus qu'une performance d'acteur : c'est une véritable leçon de cinéma. Habité par son personnage, Heath Ledger a méticuleusement construit cette incarnation du Joker, en s'inspirant de figures chaotiques. Son interprétation n’est pas seulement effrayante et captivante, elle redéfinit le personnage, le rendant plus imprévisible et anarchique que jamais. À chaque apparition, Ledger capture toute l'attention, et même en son absence, le spectateur ressent un manque, une tension palpable. Sa performance reste gravée dans la légende du cinéma, faisant de son Joker l'une des incarnations les plus mémorables et poignantes de tous les temps.</p>
+      </article>
+       </li>
+     <li>
+        <article>
+        <h3>Joaquin Phoenix : <i>Joker et Joker : Folie à deux</i></h3>
+         <span class="date">(2019/2024)</span>
+        <p>Le film Joker de Todd Phillips, qui explore la dimension psychologique du personnage et revient sur les origines du célèbre méchant de DC Comics, a été un véritable succès au box-office, couronné par le prestigieux Lion d'Or à la Mostra de Venise en 2019. Joaquin Phoenix y livre une performance époustouflante, incarnant Arthur Fleck, un homme tourmenté en route vers la folie. Phoenix, au sommet de son art, n'a pas hésité à perdre plus de 23 kilos pour interpréter ce personnage psychotique avec une intensité rare. Situé dans un Gotham sombre et chaotique du début des années 80, en proie à une crise sociale profonde, le film retrace la transformation d'Arthur Fleck en Joker, dévoilant ses séances avec une psychiatre, ses relations complexes, notamment avec sa mère, et sa lente descente dans la folie. Contrairement aux versions précédentes, ce Joker revisité révèle une facette plus humaine, où la sensibilité et la fragilité du personnage émergent avec force, rendant son parcours à la fois tragique et fascinant. Ce portrait d'un homme brisé par la société confère au plus déluré des méchants de DC Comics une profondeur émotionnelle inattendue, enrichissant ainsi la mythologie du Joker.</p>
+        </article>
+        </li>
+  </div>
+</section>
+<section>
+  <div id="tribute-info">
+    <h2 id="psychologie">Entre le bien et le mal</h2>
+       <p>Le Joker transcende le statut de simple antagoniste ; il se présente comme le reflet sombre de Batman. Tandis que Batman symbolise l'ordre, la moralité et la justice, le Joker incarne le chaos, l'anarchie et l'imprévisibilité. Leur dynamique est comparable à celle du jour et de la nuit, représentant deux forces opposées mais intrinsèquement liées, chacune définissant l'autre par son existence.
+
+Dans plusieurs récits, le Joker n'hésite pas à admettre que sans Batman, il ne serait qu'un personnage marginal, dépourvu de véritable sens. Cette reconnaissance établit une relation presque symbiotique entre les deux, où leur lutte constante ne fait que renforcer leur identité respective. La dualité entre le héros et le vilain leur confère une profondeur narrative fascinante, captivant ainsi l'imagination du public et suscitant des réflexions sur la nature même du bien et du mal. C'est cette complexité qui fait du Joker un personnage emblématique, au-delà de son rôle de simple méchant. </p>
+    <h2>Un joker dérangé et dérangeant</h2>
+       <p>Le Joker incarne bien plus qu'un simple personnage de fiction ; il est devenu un véritable symbole de la folie latente qui sommeille en chacun de nous, représentant le désordre qui se cache sous la surface apparemment ordonnée de notre civilisation. Sa présence nous incite à réfléchir sur la nature humaine, la moralité, et la frontière délicate qui sépare la normalité de la déviance. Qu'il soit perçu comme un criminel antipathique, un anarchiste charismatique ou un enfant abandonné par la société, le Joker laissera toujours une empreinte indélébile dans la culture populaire.
+
+Son rire dément, son sourire macabre taillé au couteau, et son maquillage de clown, devenu une véritable vision d'horreur, continuent d'inspirer et de terrifier les spectateurs à travers les âges. Il symbolise cette facette de l’humanité que nous préférons ignorer, et son existence dans l’imaginaire collectif soulève des questions dérangeantes sur notre propre rapport à la folie et à la société. Ainsi, le Joker demeure une figure fascinante et inquiétante, reflet de nos peurs et de nos désirs les plus profonds. </p>
+       <p>Comme le Joker le dit si bien:</p>
+       <blockquote>
+          "Il suffit d'une seule mauvaise journée pour réduire à la folie l'homme le plus sensé du monde. Voilà à quelle distance le monde est de là où je suis. Juste une mauvaise journée."
+          </blockquote>
+      </div>
+  </section>
+    <p>Pour en savoir plus <a id="tribute-link" href="https://fr.wikipedia.org/wiki/Joker_(personnage)" target="_blank" rel="noopener noreferrer">Cliquez ici.</a></p>
+  </main>
+   </body>
+</html>
+
