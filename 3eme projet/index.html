@@ -4,6 +4,8 @@
  <meta charset="utf-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <link rel="stylesheet" href="styles.css">
+ <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+ <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
  <title>Documentation Page - Black hole</title>
 </head>
   <body>
@@ -33,17 +35,21 @@
 
             <p>Le champ gravitationnel est une manière de représenter l'effet gravitationnel qu'une masse exerce dans l'espace autour d'elle. Selon la théorie de la gravitation de Newton, toute masse <em>(M)</em> crée autour d'elle un champ de gravitation qui agit sur d'autres masses.</p>
             <p>Le champ gravitationnel à une distance <em>r</em> d'une masse <em>M</em> est défini comme la force gravitationnelle par unité de masse. Formellement, il est exprimé comme suit :</p>
-            <code> g(r) = F/m = GM/r<sup>2</sup></code>
+             $$\vec{g}(r) = \frac{F}{m} = \frac{GM}{r^2}$$
+            
             <p>où :
                 <ul>
-                    <li><em>g(r)</em> est le champ gravitationnel <em>N/kg</em>, <em>G</em> est la constante gravitationnelle 6.67430 x 10<sup>-11</sup>m<sup>3</sup>kg<sup>-1</sup>s<sup>-2</sup></li>
+                    <li><em>g(r)</em> est le champ gravitationnel <em>N/kg</em>, <em>G</em> est la constante gravitationnelle <code>6.67430 x 10<sup>-11</sup>m<sup>3</sup>kg<sup>-1</sup>s<sup>-2</sup></code></li>
                     <li><em>M</em> est la masse source du champ,</li>
                     <li><em>r</em> est la distance à la masse <em>M</em>.</li>
                 </ul>
             </p>
-            <p>Ce champ est radial et dirigé vers la masse M. Toute autre masse <em>m</em> placée dans ce champ gravitationnel subira une force égale à <em>F=m⋅g</em>, dirigée vers la masse <em>M</em>.
-                <img src="https://i.imgur.com/A00sZVo.gif" alt="Animation d'un champ gravitationnel">
-            </p>
+            <p>Ce champ est radial et dirigé vers la masse M. Toute autre masse <em>m</em> placée dans ce champ gravitationnel subira une force égale à <code>F=m⋅g</code>, dirigée vers la masse <em>M</em>.
+              <div class="container">
+                <img src="https://i.imgur.com/A00sZVo.gif" alt="">
+                   <figcaption>Animation d'un champ gravitationnel</figcaption>
+            </div> 
+        </p>
         </section>
 
       <!--deuxième section-->
@@ -51,7 +57,7 @@
           <header>La vitesse de libération et l'application à la lumière</header>
 
             <p>La vitesse de libération (V-esc) est la vitesse minimale qu'un objet doit atteindre pour échapper à l'attraction gravitationnelle d'une masse <em>M</em> depuis une distance <em>r</em>. Nous avons vu que la formule pour cette vitesse est donnée par :</p>
-            <code>V-esc = &radic;(2GM/r) </code>
+            $$v_{\text{esc}} = \sqrt{\frac{2GM}{r}}$$
             <p>où :</p>
                 <ul>
                     <li><em>G</em> la constante gravitationnelle,</li>
@@ -60,11 +66,23 @@
                 </ul>
           <h2>Dans le cas d'un photon</h2>
             <p>i nous appliquons cette formule à la lumière, pour laquelle la vitesse est <em>c</em> (la vitesse de la lumière), soit 3 x 10<sup>8</sup>m/s, nous pouvons trouver la distance à partir de laquelle même la lumière ne peut échapper à l'attraction gravitationnelle d'un corps massif. Cette distance est appelée le <strong>rayon de Schwarzschild <em>rs</em></strong> et elle définit l'horizon d'un trou noir.</p>
-            <p>En posant 
-                <code>V-esc = c</code>, on obtient:</p>
-            <code> c=&radic;(2GM/rs) </code>
-            <p>En résolvant pour rs, on trouve :</p>
-            <code>rs = 2GM / c<sup>2</sup></code>
+            <p>En posant:</p>
+
+            <code> V.esc=c</code>
+
+            <p>on obtient:</p>
+
+            $$
+c = \sqrt{\frac{2GM}{r_s}}
+$$
+
+
+            <p>En résolvant pour <em>rs</em>, on trouve :</p>
+
+            $$
+            r_s = \frac{2GM}{c^2}
+            $$
+        
 
             <p>Cette formule donne le rayon de <strong>l'horizon des événements</strong> d'un trou noir, où la gravité est si intense que même la lumière ne peut s'en échapper.</p>
             
@@ -78,32 +96,34 @@
                 <li>Précession de l'orbite de Mercure</li>
                   <p>L'un des échecs historiques de la mécanique newtonienne est son incapacité à expliquer précisément le mouvement de la planète Mercure. Son orbite subit un phénomène appelé précession : la trajectoire de l'orbite elliptique de Mercure tourne lentement autour du Soleil. Bien que la gravité de Newton puisse expliquer une partie de cette précession, une petite partie restait inexpliquée jusqu'à ce que la relativité générale soit mis en œuvre. Celle-ci introduit la courbure de l'espace-temps due à la masse du Soleil, ce qui permet d'expliquer cette précession supplémentaire observée.</p>
                   <p>Formellement, Newton prédit un mouvement elliptique simple, mais l'effet relativiste ajoute un terme qui provoque une légère rotation de l'ellipse d'orbite à chaque révolution.</p>
-                  <img src="https://qph.cf2.quoracdn.net/main-qimg-5e2dbe79e50b0254dfa6d150cb63b842.webp" alt="Précession du périhélie de mercure">
+                  <div class="container><img src="https://qph.cf2.quoracdn.net/main-qimg-5e2dbe79e50b0254dfa6d150cb63b842.webp" alt="Précession du périhélie de mercure">
+                    <figcation>Précession du périhélie de mercure</figcation>
+                    </div>
                 <li>Addition des vitesses</li>  
-                  <p>Imaginons qu'un observateur soit dans un train qui se déplace à une vitesse de <em>v1= 100km/h</em>. L'observateur à l'intérieur du train lance une balle à une vitesse de <em>v2= 20km/h</em> dans la direction du mouvement du train.</p>
+                  <p>Imaginons qu'un observateur soit dans un train qui se déplace à une vitesse de <code>v1= 100km/h</code>. L'observateur à l'intérieur du train lance une balle à une vitesse de <code>v2= 20km/h</code>dans la direction du mouvement du train.</p>
                   <ol>
                     <li>Mécanique classique :</li>
                     <p>Dans le cadre de la mécanique classique, la vitesse totale de la balle pour un observateur extérieur immobile par rapport au train est simplement la somme des vitesses :</p>
-                    <code> V.totat = v1 + v2 = 100+20 = 120km/h </code>
+                    $$v_{\text{total}} = v_1 + v_2 = 100 + 20 = 120 \, \text{km/h}$$
                     <li>Mécanique relativiste :</li>
-                    <p>Si au lieu d'une balle, on remplace <em>v2</em> par une vitesse proche de celle de la lumière, par exemple un faisceau lumineux (ou un objet à grande vitesse), l'addition des vitesses ne se fait plus de manière linéaire. Supposons que le train avance à une vitesse proche de celle de la lumière, disons <em>v1 = 0.8c</em> (80 % de la vitesse de la lumière), et qu'à l'intérieur, une lumière laser est allumée à la vitesse <em>v2 = c</em>.</p>
-                    <p>Selon la mécanique classique, on s'attendrait à ce que la lumière aille à <em>v1+c = 1.8c</em>, ce qui dépasse la vitesse de la lumière, mais ceci est impossible.</p>
+                    <p>Si au lieu d'une balle, on remplace V2 par une vitesse proche de celle de la lumière, par exemple un faisceau lumineux (ou un objet à grande vitesse), l'addition des vitesses ne se fait plus de manière linéaire. Supposons que le train avance à une vitesse proche de celle de la lumière, disons <em>v1 = 0.8c</em> (80 % de la vitesse de la lumière), et qu'à l'intérieur, une lumière laser est allumée à la vitesse <em>v2 = c</em>.</p>
+                    <p>Selon la mécanique classique, on s'attendrait à ce que la lumière aille à <code>v1+c = 1.8c</code>, ce qui dépasse la vitesse de la lumière, mais ceci est impossible.</p>
                     <p>En relativité restreinte, on utilise la formule d'addition des vitesses :</p>
-                    <code>V.total = (v1+v2)/(1+(v1+v2/c<sup>2</sup>))</code>
+                    $$v_{\text{total}} = \frac{v_1 + v_2}{1 + \frac{v_1 v_2}{c^2}}$$
                     <p>En remplaçant les valeurs, cela donne :</p>
-                    <code>V.total= (0.8c + c)/(1+(0.8c⋅c/c<sup>2</sup>))</code>
-                    <p>Cela montre que, même si le train se déplace à une vitesse proche de celle de la lumière, la vitesse du faisceau lumineux mesurée par un observateur externe reste toujours <em>c</em>, la vitesse de la lumière.</p>
+                    $$v_{\text{total}} = \frac{0.8c + c}{1 + \frac{0.8c \cdot c}{c^2}} = \frac{1.8c}{1.8} = c$$
+                    <p>Cela montre que, même si le train se déplace à une vitesse proche de celle de la lumière, la vitesse du faisceau lumineux mesurée par un observateur externe reste toujours <em>c</em>>, la vitesse de la lumière.</p>
                   </ol>
                 <li>Dilatation du temps</li>
-                    <p>Imaginons un train qui se déplace à une vitesse très élevée, disons <em>v=0.9c</em> (90 % de la vitesse de la lumière), et une personne à l'intérieur du train mesure une durée de 1 heure pour un événement.</p>
+                    <p>Imaginons un train qui se déplace à une vitesse très élevée, disons <code>v=0.9c</code> (90 % de la vitesse de la lumière), et une personne à l'intérieur du train mesure une durée de 1 heure pour un événement.</p>
                     <p>our un observateur immobile à l'extérieur du train, la dilatation du temps signifie que l'événement mesuré par la personne dans le train dure plus longtemps que 1 heure. La relation est donnée par :</p>
-                    <code>Δt'= &radic;(Δt/) 
-                                ​Δt​</code>
+                    $$
+\Delta t' = \frac{\Delta t}{\sqrt{1 - \frac{v^2}{c^2}}}
+$$
                     <p>En remplaçant les valeurs :</p>
-                    <code>Δt′=1−c2(0.9c)2​
-                        ​1heure​=1−0.81
-                        ​1heure​=0.19
-                        ​1heure​≈2.29heures</code>
+                    $$
+\Delta t' = \frac{1 \, \text{heure}}{\sqrt{1 - \frac{(0.9c)^2}{c^2}}} = \frac{1 \, \text{heure}}{\sqrt{1 - 0.81}} = \frac{1 \, \text{heure}}{\sqrt{0.19}} \approx 2.29 \, \text{heures}
+$$
                     <p>Ainsi, pour l'observateur extérieur, l'événement semble durer environ 2.29 heures, alors qu'à l'intérieur du train, l'événement a duré seulement 1 heure.</p>
                 <li>Incapacité à intégrer la lumière et l'énergie</li>
                     <p>Dans la mécanique classique, la gravitation ne dépend que des masses. Or, la relativité générale montre que la gravitation affecte non seulement les masses mais aussi l'énergie et la lumière (qui sont sans masse mais possèdent de l'énergie). Ainsi, la mécanique classique est impuissante à expliquer pourquoi même la lumière ne peut pas échapper à un trou noir.</p>
@@ -122,8 +142,11 @@
                      <li>Les objets en mouvement, comme les planètes, suivent ces courbures, ce qui donne l'impression d'une “force” gravitationnelle qui les attire vers les objets massifs.</li>
                      </ul>
                    <p>C'est cette courbure de l'espace-temps qui explique des phénomènes que la mécanique newtonienne ne pouvait pas décrire correctement, comme la précession de l'orbite de Mercure.</p>
-                   <img src="https://i.pinimg.com/originals/4c/6a/5d/4c6a5dbe3c95cac3fe6b84ff06b66144.gif" alt="Visualisation de la déformation de l'espace temps">
-                <h2>Différence Principale avec la Gravité Newtonienne</h2>
+                   <div class="container">
+                      <img src="https://i.pinimg.com/originals/4c/6a/5d/4c6a5dbe3c95cac3fe6b84ff06b66144.gif" alt="Visualisation de la déformation de l'espace temps">
+                        <figcaption>Visualisation de la déformation de l'espace temps</figcaption>
+                    </div>
+                   <h2>Différence Principale avec la Gravité Newtonienne</h2>
                    <p>Dans la théorie newtonienne, la gravité est une force qui agit à distance et est proportionnelle au produit des masses et inversement proportionnelle au carré de la distance entre deux objets. Cette approche suppose une action instantanée, ce qui est en contradiction avec la relativité restreinte qui limite la propagation de toute information (y compris la gravité) à la vitesse de la lumière.</p>
                    <p>En relativité générale, la gravité n'est plus une force : c'est la courbure de l'espace-temps elle-même. Un objet qui tombe librement dans un champ gravitationnel ne ressent aucune force ; il suit une géodésique dans cet espace-temps courbé.</p>
                 </section>
@@ -132,9 +155,10 @@
         <section class="main-section" id="Le_concept_des_trous_noirs">
             <header>Le concept des trous noirs</header>
                 <p>Un trou noir est une région de l'espace où la courbure de l'espace-temps devient si forte qu'aucune particule, même la lumière, ne peut s'en échapper. Les trous noirs sont les solutions extrêmes aux équations d'Einstein de la relativité générale.</p>
-            
-        <img src="https://bigthink.com/wp-content/uploads/2023/06/CNX_UPhysics_13_07_spacetime.jpg" alt="Représentation d'un trou noir">
-                
+         <div class="container">
+            <img src="https://bigthink.com/wp-content/uploads/2023/06/CNX_UPhysics_13_07_spacetime.jpg" alt="Représentation d'un trou noir">
+              <figcaption>Représentation d'un trou noir</figcaption>
+        </div>      
               </section>
 
       <!--sixieme section-->
@@ -154,8 +178,11 @@
                     <li>Doppler Beaming</li>
                        <p>Le Doppler beaming est un phénomène lié à l'effet Doppler qui se produit lorsque les particules se déplacent à des vitesses relativistes (proches de celle de la lumière). Si ces particules se déplacent vers l'observateur, la lumière qu'elles émettent est décalée vers le bleu, ce qui la rend plus lumineuse. Inversement, si les particules se déplacent à l'opposé de l'observateur, la lumière sera décalée vers le rouge, diminuant ainsi son intensité.</p>
                    </ol>
+                <div class="container">
                    <img src="https://i.ytimg.com/vi/0a2cUdpBxE8/maxresdefault.jpg" alt="Anatomie d'un trou noir">
-              </section>
+                      <figcaption>Anatomie d'un trou noir</figcaption>
+                </div>
+            </section>
 
               <!--septieme section-->
               <section class="main-section" id="Formation_des_trous_noirs">
@@ -168,8 +195,11 @@
                      <li>Effondrement Gravitationnel : Une fois que la fusion nucléaire s'arrête, l'équilibre entre la pression thermique (qui poussait vers l'extérieur) et la gravité (qui pousse vers l'intérieur) est brisé. L'étoile s'effondre sous son propre poids.</li>
                      <li>Explosion en Supernova : L'étoile massive peut exploser en une supernova, libérant une grande quantité d'énergie. Si le cœur restant a une masse suffisamment élevée (environ 3 fois celle du Soleil), il s'effondre en un trou noir.</li>
                      <li>Formation du Trou Noir : Le noyau devient si dense qu'il crée une singularité, un point où la courbure de l'espace-temps devient infinie, et un horizon des événements se forme autour de cette singularité.</li>
+                    <div class="container">
                      <img src="https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnature09294/MediaObjects/41586_2010_Article_BFnature09294_Fig1_HTML.jpg" alt="Etapes de formation d'un trou noir">
-                   </ul>
+                       <figcaption>Etapes de formation d'un trou noir</figcaption>
+                    </div> 
+                 </ul>
                </section> 
 
                <!--huitieme section-->
@@ -178,8 +208,11 @@
                
                    <p>Selon les théories actuelles, les trous noirs peuvent émettre des rayonnements Hawking, une radiation prédite par Stephen Hawking. Cela signifie que, sur de très longues périodes de temps (des milliards de milliards d'années), les trous noirs pourraient progressivement perdre de l'énergie et s'évaporer.</p>
                    <p>La durée de vie d'un trou noir dépend donc de sa masse. Plus il est massif, plus il mettra de temps à s'évaporer.</p>
+                 <div class="container">
                    <img src="https://www.secretsofuniverse.in/wp-content/uploads/2020/04/Hawking-Radiation-Virtual-Particles.jpg" alt="Figure illustrant les radiations d'Hawking">
-                </section>
+                    <figcaption>Figure illustrant les radiations d'Hawking</figcaption>
+                </div>
+             </section>
 
                 <!--neuvieme section-->
                <section class="main-section" id="Méthodes_de_détection_et_d'observation_des_trous_noirs">
@@ -187,19 +220,31 @@
                    <ol>
                      <li>Observation Indirecte par Effets Gravitationnels</li>
                        <p>Les trous noirs peuvent être détectés indirectement grâce à leurs effets gravitationnels sur leur environnement. Par exemple, si une étoile semble orbiter autour d'un objet invisible, on peut mesurer sa vitesse orbitale pour estimer la masse de l'objet invisible (qui pourrait être un trou noir). C'est notamment le cas du trou noir supermassif au centre de notre galaxie, Sagittarius A*.</p>
+                       <div class="container"> 
                        <img src="https://i.imgur.com/lZNQWjM.gif" alt="Des Etoiles qui orbitent autour d'un trou noir">
-                     <li>Disque d'Accrétion et Rayon X</li>
+                          <figcaption>Des Etoiles qui orbitent autour d'un trou noir</figcaption>
+                    </div>
+                       <li>Disque d'Accrétion et Rayon X</li>
                        <p>Lorsqu'un trou noir attire de la matière d'une étoile voisine, cette matière forme un disque d'accrétion en spirale autour du trou noir. Ce disque devient extrêmement chaud à cause des forces gravitationnelles intenses, émettant des rayons X. Ces émissions sont souvent détectées par des télescopes spatiaux.</p>
                     <li>Ondes Gravitationnelles</li>
                        <p>Les ondes gravitationnelles sont des ondulations de l'espace-temps produites par des événements cataclysmiques, comme la fusion de deux trous noirs ou la collision d'étoiles à neutrons. Ces ondes ont été observées pour la première fois en 2015 par les détecteurs LIGO et Virgo. Elles fournissent des informations précieuses sur les trous noirs, leur masse et leur fusion.</p>
+                       <div class="container">  
                        <img src="https://jacobfinesastroblog.wordpress.com/wp-content/uploads/2018/02/gravitywave.gif" alt="Ondes gravitationnel après la fusion de deux trous noirs">
-                    <li>Lentilles Gravitationnelles</li>
+                       <figcaption>Ondes gravitationnel après la fusion de deux trous noirs</figcaption>
+                    </div>
+                       <li>Lentilles Gravitationnelles</li>
                        <p>La courbure de l'espace-temps autour d'un trou noir peut agir comme une lentille gravitationnelle, déviant la lumière d'un d''un objet lointain. Cet effet permet d'observer des déformations d'images lumineuses, révélant ainsi la présence de trous noirs entre la source lumineuse et l'observateur.</p>
+                     <div class="container"> 
                        <img src="https://i.imgur.com/xeiFL9n.gif" alt="Lentille gravitationnelle autour d'un trou noir">
+                       <figcaption>Lentille gravitationnelle autour d'un trou noir</figcaption>
+                    </div>
                     <li>Imagerie Directe(Event Horizon Telescope)</li>
                        <p>L'une des avancées les plus marquantes a été l'image directe du trou noir supermassif au centre de la galaxie M87, obtenue en 2019 par l'Event Horizon Telescope (EHT). Cette image a montré l'ombre du trou noir entourée d'un disque lumineux de gaz en rotation, fournissant la première preuve visuelle directe de l'existence d'un horizon des événements.</p>
+                      <div class="container">
                        <img src="https://skyandtelescope.org/wp-content/uploads/EHT2017_stations_PaperI_Fig1_600px.jpg" alt="Schéma de Event Horizon Telescope">
-                   </ol>
+                          <figcaption>Schéma de Event Horizon Telescope</figcaption>
+                    </div>
+                    </ol>
         </section>       
   </main>
  </body>
