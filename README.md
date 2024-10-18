@@ -5,7 +5,8 @@ Welcome to my FreeCodeCamp certification projects repository! This collection sh
 ## Projects Overview
 
 - **Project 1**: Survey Form.
-- **Project 2**: Tribute Page-Joker.
+- **Project 2**: Tribute Page - Joker.
+- **Project 3**: Technical Documentation Page - Black Holes.
 
 ## Technologies Used
 
