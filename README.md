@@ -22,8 +22,7 @@ Welcome to my FreeCodeCamp certification projects repository! This collection sh
 
 To view these projects locally, clone the repository using the following command:
 
- ```bash
-git clone https://github.com/hayathdt/freecodecamp.git
+<code>git clone https://github.com/hayathdt/freecodecamp.git</code>
 
 ## Contributing
 
@@ -31,8 +30,8 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 
 1. **Fork the repository** by clicking the "Fork" button at the top right.
 2. **Create a new branch** for your feature or bug fix:
-   ```bash
-   git checkout -b your-feature-branch
+
+<code>git checkout -b your-feature-branch</code>
 
 ## Contact
 
