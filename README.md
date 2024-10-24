@@ -5,13 +5,13 @@ Welcome to my FreeCodeCamp certification projects repository! This collection sh
 ## Projects Overview
 
 - **Project 1**: Survey Form.
- A registration form for a club that allows users to sign up by providing their personal information, preferences, and interests.
+ - A registration form for a club that allows users to sign up by providing their personal information, preferences, and interests.
 
 - **Project 2**: Tribute Page - Joker.
- A tribute page dedicated to the character Joker, exploring his portrayal across various films. This page highlights his complex character, the themes of chaos and morality he embodies
+ - A tribute page dedicated to the character Joker, exploring his portrayal across various films. This page highlights his complex character, the themes of chaos and morality he embodies
 
 - **Project 3**: Technical Documentation Page - Black Holes.
- An informative documentation page discussing the phenomenon of black holes. This project includes sections on the formation of black holes, their properties, and their significance in astrophysics.
+ - An informative documentation page discussing the phenomenon of black holes. This project includes sections on the formation of black holes, their properties, and their significance in astrophysics.
 
 ## Technologies Used
 
