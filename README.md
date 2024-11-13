@@ -13,6 +13,12 @@ Welcome to my FreeCodeCamp certification projects repository! This collection sh
 - **Project 3**: Technical Documentation Page - Black Holes.
  - An informative documentation page discussing the phenomenon of black holes. This project includes sections on the formation of black holes, their properties, and their significance in astrophysics.
 
+- **Project 4**: Product Landing Page - Nahla Shop.
+  - A promotional landing page for "Nahla Shop," showcasing honey products with a focus on quality and natural benefits. This page includes a call-to-action, a product benefits section, and contact information for potential customers.
+
+- **Project 5**: Portfolio - Hayat Haddouti.
+  - My personal portfolio, designed in a vintage newspaper style to reflect a unique and creative approach. This site showcases my web development projects, skills, and contact information, providing a visually engaging overview of my work.
+
 ## Technologies Used
 
 - HTML
