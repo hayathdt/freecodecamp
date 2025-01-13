@@ -1,9 +1,59 @@
-:root{
+:root {
+    /* Day mode variables */
     --primary-bg: #646464;
     --secondary-bg: #f9f9f9;
     --hover-bg: #555;
     --text-dark: #333;
     --code-bg: #f4f4f4;
+    
+    /* Night mode variables */
+    --night-primary-bg: #0A0A2A; 
+    --night-secondary-bg: #2d2d2d;
+    --night-hover-bg: #404040;
+    --night-text: #ffffff;
+    --night-code-bg: #3d3d3d;
+}
+
+.night-mode {
+    background-color: var(--night-primary-bg);
+    color: var(--night-text);
+    min-height: 100vh;
+}
+
+.night-mode #main-doc {
+    background-color: var(--night-primary-bg);
+}
+
+.night-mode body {
+    background-color: var(--night-primary-bg);
+}
+
+.night-mode #navbar {
+    background-color: var(--night-secondary-bg);
+}
+
+.night-mode #navbar ul li a:hover {
+    background-color: var(--night-hover-bg);
+}
+
+.night-mode p {
+    background-color: var(--night-secondary-bg);
+    color: var(--night-text);
+}
+
+.night-mode code {
+    background-color: var(--night-code-bg);
+    border-color: var(--night-secondary-bg);
+    color: var(--night-text);
+}
+
+.night-mode section header {
+    background-color: var(--night-secondary-bg);
+}
+
+.night-mode h1 {
+    background-color: var(--night-secondary-bg);
+    color: var(--night-text);
 }
 
 body {
@@ -146,3 +196,82 @@ p{
     font-family: sans-serif;
     background-color: var(--secondary-bg);
 }
+
+@media (max-width: 768px) {
+    #main-doc {
+      margin-left: 0;
+      margin-right: 0;
+      padding: 15px;
+    }
+    
+    #navbar {
+      position: relative;
+      width: 100%;
+      height: auto;
+    }
+    
+    img {
+      max-width: 90%;
+    }
+    
+    #notehawking, #notenewton {
+      margin-left: 0;
+    }
+  }
+  
+  /* For mobile phones */
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 20px;
+      padding: 8px;
+    }
+    
+    section header {
+      font-size: 20px;
+    }
+    
+    h2 {
+      font-size: 18px;
+    }
+    
+    p {
+      font-size: 14px;
+      padding: 8px;
+    }
+    
+    code {
+      font-size: 12px;
+      white-space: pre-wrap;
+    }
+    
+    ol li {
+      font-size: 16px;
+    }
+  }
+  
+ 
+  @media (max-width: 320px) {
+    #navbar {
+      font-size: 11px;
+    }
+    
+    h1 {
+      font-size: 18px;
+    }
+    
+    p {
+      font-size: 13px;
+    }
+  }
+  
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+
+  body {
+    overflow-x: hidden;
+    word-wrap: break-word;
+  }
